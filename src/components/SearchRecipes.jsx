@@ -144,6 +144,8 @@ function changeToGrid(){
       .then(response => response.json())
       .then(data => {
         setRecipes(prevRecipes => {
+          //console.log(data); find out if data is returning new recipes
+          //and if so then find out if recipes is getting updated
           var recipes = [];
           var substitutions = [];
           for(let i = 0; i < data.number && i < data.totalResults; i++) {
