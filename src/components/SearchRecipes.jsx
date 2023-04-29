@@ -131,7 +131,7 @@ function changeToGrid(){
     // GET request using fetch with set headers
     const headers = { 'Content-Type': 'application/json' };
     console.log(searchQuery);
-    const url = "https://api.spoonacular.com/recipes/complexSearch?query=" + searchQuery
+    var url = "https://api.spoonacular.com/recipes/complexSearch?query=" + searchQuery
                 + "&includeIngredients=" + PANTRY
                 + "&fillIngredients=true&sort=min-missing-ingredients&number=10&ignorePantry=true"
                 + "&addRecipeInformation=true"
@@ -168,7 +168,7 @@ function getRandomRecipe (e) {
   e.preventDefault();
   // GET request using fetch with set headers
   const headers = { 'Content-Type': 'application/json' };
-  const url = "https://api.spoonacular.com/recipes/complexSearch?query="
+  var url = "https://api.spoonacular.com/recipes/complexSearch?query="
               + "&includeIngredients=" + PANTRY
               + "&fillIngredients=true&sort=min-missing-ingredients&number=100&ignorePantry=true"
               + "&addRecipeInformation=true"
