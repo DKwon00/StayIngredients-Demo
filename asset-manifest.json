@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/StayIngredients-Demo/static/css/main.0d00f322.css",
-    "main.js": "/StayIngredients-Demo/static/js/main.bfc2d2ff.js",
+    "main.js": "/StayIngredients-Demo/static/js/main.fc749c6a.js",
     "static/js/787.fdb32a0c.chunk.js": "/StayIngredients-Demo/static/js/787.fdb32a0c.chunk.js",
     "static/media/cast_iron.png": "/StayIngredients-Demo/static/media/cast_iron.e33083c14f650b766568.png",
     "static/media/pantry_img.png": "/StayIngredients-Demo/static/media/pantry_img.e6d798003732eae76900.png",
@@ -12,11 +12,11 @@
     "static/media/PlusJakartaSans-Regular.ttf": "/StayIngredients-Demo/static/media/PlusJakartaSans-Regular.e3f98d4b9fa2064e3c0b.ttf",
     "index.html": "/StayIngredients-Demo/index.html",
     "main.0d00f322.css.map": "/StayIngredients-Demo/static/css/main.0d00f322.css.map",
-    "main.bfc2d2ff.js.map": "/StayIngredients-Demo/static/js/main.bfc2d2ff.js.map",
+    "main.fc749c6a.js.map": "/StayIngredients-Demo/static/js/main.fc749c6a.js.map",
     "787.fdb32a0c.chunk.js.map": "/StayIngredients-Demo/static/js/787.fdb32a0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d00f322.css",
-    "static/js/main.bfc2d2ff.js"
+    "static/js/main.fc749c6a.js"
   ]
 }
