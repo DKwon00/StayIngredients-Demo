@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/StayIngredients-Demo/static/css/main.0d00f322.css",
-    "main.js": "/StayIngredients-Demo/static/js/main.63e0c274.js",
-    "static/js/787.fdb32a0c.chunk.js": "/StayIngredients-Demo/static/js/787.fdb32a0c.chunk.js",
-    "static/media/cast_iron.png": "/StayIngredients-Demo/static/media/cast_iron.e33083c14f650b766568.png",
-    "static/media/pantry_img.png": "/StayIngredients-Demo/static/media/pantry_img.e6d798003732eae76900.png",
-    "static/media/sub_img.png": "/StayIngredients-Demo/static/media/sub_img.06b5cc0273735e99044e.png",
-    "static/media/LogoAnimation.gif": "/StayIngredients-Demo/static/media/LogoAnimation.5f8ee38bfdce1d2485f4.gif",
-    "static/media/shop_img.png": "/StayIngredients-Demo/static/media/shop_img.528685b135d4fc447da3.png",
-    "static/media/StayInGredientsLogo.png": "/StayIngredients-Demo/static/media/StayInGredientsLogo.df4f0fa7d1ab1e1c9134.png",
-    "static/media/PlusJakartaSans-Regular.ttf": "/StayIngredients-Demo/static/media/PlusJakartaSans-Regular.e3f98d4b9fa2064e3c0b.ttf",
-    "index.html": "/StayIngredients-Demo/index.html",
-    "main.0d00f322.css.map": "/StayIngredients-Demo/static/css/main.0d00f322.css.map",
-    "main.63e0c274.js.map": "/StayIngredients-Demo/static/js/main.63e0c274.js.map",
-    "787.fdb32a0c.chunk.js.map": "/StayIngredients-Demo/static/js/787.fdb32a0c.chunk.js.map"
+    "main.css": "/static/css/main.29b28eb8.css",
+    "main.js": "/static/js/main.150f4b1d.js",
+    "static/js/787.fdb32a0c.chunk.js": "/static/js/787.fdb32a0c.chunk.js",
+    "static/media/cast_iron.png": "/static/media/cast_iron.e33083c14f650b766568.png",
+    "static/media/pantry_img.png": "/static/media/pantry_img.e6d798003732eae76900.png",
+    "static/media/sub_img.png": "/static/media/sub_img.06b5cc0273735e99044e.png",
+    "static/media/LogoAnimation.gif": "/static/media/LogoAnimation.5f8ee38bfdce1d2485f4.gif",
+    "static/media/shop_img.png": "/static/media/shop_img.528685b135d4fc447da3.png",
+    "static/media/StayInGredientsLogo.png": "/static/media/StayInGredientsLogo.df4f0fa7d1ab1e1c9134.png",
+    "static/media/PlusJakartaSans-Regular.ttf": "/static/media/PlusJakartaSans-Regular.e3f98d4b9fa2064e3c0b.ttf",
+    "index.html": "/index.html",
+    "main.29b28eb8.css.map": "/static/css/main.29b28eb8.css.map",
+    "main.150f4b1d.js.map": "/static/js/main.150f4b1d.js.map",
+    "787.fdb32a0c.chunk.js.map": "/static/js/787.fdb32a0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d00f322.css",
-    "static/js/main.63e0c274.js"
+    "static/css/main.29b28eb8.css",
+    "static/js/main.150f4b1d.js"
   ]
 }
