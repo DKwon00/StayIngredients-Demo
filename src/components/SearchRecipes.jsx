@@ -127,25 +127,39 @@ function changeToGrid(){
       searchQuery = searchQueryRefSmall.current.value;
     }
 
-    
     // GET request using fetch with set headers
+    const options = { 
+      'method': 'GET',
+      'headers': {
+        'x-rapidapi-host': 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
+        'x-rapidapi-key': process.env.REACT_APP_SPOONACULAR_KEY
+      }
+    };
     const headers = { 'Content-Type': 'application/json' };
     console.log(searchQuery);
     var url = "https://api.spoonacular.com/recipes/complexSearch?query=" + searchQuery
-                + "&includeIngredients=" + PANTRY
-                + "&fillIngredients=true&sort=min-missing-ingredients&number=10&ignorePantry=true"
+                + "&includeIngredients=" + pantry
+                + "&fillIngredients=true&sort=min-missing-ingredients&ignorePantry=true"
+                + "&number=" + parseInt(maxResults)
                 + "&addRecipeInformation=true"
                 + "&cuisine=" + cuisines
                 + "&diet=" + diets
                 + "&type=" + mealTypes
                 + "&intolerances=" + intolerances
+                + "&minProtein=" + minProtein
+                + "&minCalories=" + calories[0] * CALORIE_SCALE
+                + "&maxCalories=" + calories[1] * CALORIE_SCALE
                 + "&apiKey=" + APIKEY;
+
+    if(maxCookTime != MAX_COOK_TIME) {
+      url += "&maxReadyTime=" + maxCookTime
+    }
+    console.log(url)
     fetch(url, headers)
       .then(response => response.json())
       .then(data => {
+        console.log("PANTRY IS : " + pantry);
         setRecipes(prevRecipes => {
-          //console.log(data); find out if data is returning new recipes
-          //and if so then find out if recipes is getting updated
           var recipes = [];
           var substitutions = [];
           for(let i = 0; i < data.number && i < data.totalResults; i++) {
@@ -163,6 +177,7 @@ function changeToGrid(){
         console.log("Out of points");
     });
   document.getElementById("pageDisplay").className = "";
+
 }
   
 // Onclick function for search recipes button
